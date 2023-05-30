@@ -22,34 +22,4 @@ profile.to_notebook_iframe()
 adult_df.isna()
 
 
-# In[6]:
-
-
-# Generate the profile report
-profile = pp.ProfileReport(adult_df, title='PProfiling Report')
-
-
-# In[7]:
-
-
-# Display the report
-profile.to_notebook_iframe()
-
-
-# In[8]:
-
-
-adult_df.isna()
-
-
-# In[15]:
-
-
-'##Title'
-
-
-# In[ ]:
-
-
-
 
